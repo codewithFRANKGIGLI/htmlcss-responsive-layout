@@ -91,6 +91,7 @@ header nav {
 }
 /* #endregion HEADER CON NAV */
 /* #region MAIN */
+/* #region services */
 .col-4 {
     width: calc(100% / 12 * 4);
 }
@@ -133,9 +134,25 @@ header nav {
     border-radius: 20px;
     transition: .5s;
 }
-.card_section_one>a:hover {
+.card-section-one > a:hover {
     color: black;
 }
+.card-section-two > img {
+    justify-items: flex-end;
+    width: 100%;
+    padding-top: 2rem
+}
+.card-section-one > i {
+    color: #0084fd;
+    scale: 2;
+    padding: 3rem 0;
+}
+
+.card-section-two > p {
+    padding: 2rem;
+    color: #5a6e7f;
+}
+/* #endregion services */
 
 
 
