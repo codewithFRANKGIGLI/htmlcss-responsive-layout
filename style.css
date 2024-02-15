@@ -88,3 +88,36 @@ header nav {
 }
 /* #endregion HEADER CON NAV */
 
+/*------------------------------ DESKTOP ------------------------------*/
+@media screen and (min-width: 1180px) {
+    .container {
+        width: 80%;
+    }
+    header nav > .mobile-menu {
+        display: none;
+    }
+    header nav > .links {
+        display: flex;
+        gap: 1.5rem;
+    }
+    header nav > .links > a:not(:last-child) {
+        text-decoration: none;
+        color: #d9edff;
+        font-weight: 100;
+        margin: 0.5rem;
+        transition: .3s;
+    }
+    .start {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        border-radius: 30px;
+        padding: 0.5rem 1rem;
+        transition: .5s;
+    }
+    .start:hover {
+        background-color: lightblue;
+        color: blue;
+        padding: 0.5rem 3rem;
+    }
+}
