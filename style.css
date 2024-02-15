@@ -1,0 +1,71 @@
+/* #region RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* #endregion RESET */
+/* #region DEBUG */
+.debug {
+    border: 2px dashed red;
+}
+.debug section {
+    background-color: lightblue;
+    border: 1px dashed grey;
+}
+.debug .container {
+    background-color: lightcoral;
+    border: 1px dashed grey;
+}
+.debug .row {
+    background-color: lightcyan;
+    border: 1px dashed grey;
+}
+.debug [class^='col-'] {
+    background-color: lightgreen;
+    border: 1px dashed grey;
+}
+.debug .card {
+    background-color: lightsalmon;
+    border: 1px dashed grey;
+}
+/* #endregion DEBUG */
+/* #region GENERAL (provo a usare classi per ogni proprietà */
+.flexible {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+.padd {
+    padding: 0px 0px;
+}
+.padd-bot {
+    padding-bottom: 0px;
+}
+.padd-sides {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.space-btw {
+    justify-content: space-between;
+}
+.jc-center {
+    justify-content: center;
+}
+.ai-center {
+    align-items: center;
+}
+/* #endregion GENERAL */
