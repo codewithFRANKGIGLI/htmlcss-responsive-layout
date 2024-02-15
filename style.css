@@ -34,20 +34,32 @@ html {
     border: 1px dashed grey;
 }
 /* #endregion DEBUG */
-/* #region GENERAL (provo a usare classi per ogni proprietà */
+/* #region GENERAL */
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+.container {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+}
 .flexible {
     display: flex;
 }
 .wrap {
     flex-wrap: wrap;
 }
-body {
-    font-family: 'PT Sans', sans-serif;
+.space-btw {
+    justify-content: space-between;
 }
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 1rem;
+.jc-center {
+    justify-content: center;
+}
+.ai-center {
+    align-items: center;
+}
+.d-none {
+    display: none;
 }
 .padd {
     padding: 0px 0px;
@@ -59,13 +71,20 @@ body {
     padding-right: 0px;
     padding-left: 0px;
 }
-.space-btw {
-    justify-content: space-between;
-}
-.jc-center {
-    justify-content: center;
-}
-.ai-center {
-    align-items: center;
-}
 /* #endregion GENERAL */
+/*------------------------------ Mobile First ------------------------------*/
+/* #region HEADER CON NAV */
+header {
+    background-color: #0084fd;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 10px 20px #0083fd6c;
+    margin-bottom: 2rem;
+}
+header nav {
+    padding: 1rem 0;
+    color: white;
+}
+/* #endregion HEADER CON NAV */
+
