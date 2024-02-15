@@ -113,7 +113,7 @@ header nav {
 #services > .container > .row > .col-12 > .card:hover {
     background-color: #cbe7ff;
 }
-.card .main {
+.card-section-one.main {
     padding-top: 2rem;
     padding-left: 2rem;
 }
@@ -202,5 +202,28 @@ header nav {
         color: blue;
         padding: 0.5rem 3rem;
     }
-    
+    .col-12.col-md-8>.card {
+        display: flex;
+    }
+}
+/*------------------------------ /DESKTOP ------------------------------*/
+/*------------------------------ TABLET ------------------------------*/
+@media screen and (min-width: 768px) {
+    .col-md-4 {
+        width: calc(100% / 12 * 4);
+    }
+    .col-md-6 {
+        width: calc(100% / 12 * 6);
+    }
+    .col-md-8 {
+        width: calc(100% / 12 * 8);
+    }
+    #services > .container > .row > .col-12 > .card {
+        height: 100%;
+        margin: 0 1rem;
+    }
+    #services> .container > .row > .col-md-4,
+    #services> .container > .row > .col-md-8 {
+        margin: 1rem 0;
+    }
 }
