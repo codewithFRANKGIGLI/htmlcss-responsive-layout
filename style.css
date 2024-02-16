@@ -302,6 +302,27 @@ header nav {
     .col-12.col-md-8 > .card {
         display: flex;
     }
+    #strategic-planning > .container > div.row {
+        display: flex;
+        flex-direction: row;
+    }
+    .card-section-two > img {
+        padding-top: 2rem;
+        padding-right: 2rem;
+    }
+    .col-l-6 {
+        width: calc(100% / 12 * 6);
+    }
+    .white-card {
+        width: 60%;
+        align-self: flex-end;
+    }
+    .white-card > img {
+        width: 100%;
+    }
+    .col-l-4 {
+        width: calc(100% / 12 * 4);
+    }
 }
 /*------------------------------ /DESKTOP ------------------------------*/
 /*------------------------------ TABLET ------------------------------*/
@@ -322,6 +343,14 @@ header nav {
     #services> .container > .row > .col-md-4,
     #services> .container > .row > .col-md-8 {
         margin: 1rem 0;
+    }
+    .purple-box {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+    .testimonial-text {
+        width: 65%;
     }
 }
 /*------------------------------ /TABLET ------------------------------*/
