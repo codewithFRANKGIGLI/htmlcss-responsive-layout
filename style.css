@@ -374,22 +374,23 @@ header nav {
     color: white;
 }
 /* #endregion get-started */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* #endregion MAIN */
-
+/* #region FOOTER */
+footer {
+    background-color: #333333;
+    color: white;
+}
+footer > .container {
+    padding: 2rem 4rem;
+}
+footer > .container > p {
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+footer > .container > div > a {
+    color: #9792e4;
+}
+/* #endregion FOOTER */
 /*------------------------------ DESKTOP ------------------------------*/
 @media screen and (min-width: 1180px) {
     .container {
