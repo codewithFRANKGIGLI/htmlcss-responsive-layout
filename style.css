@@ -157,11 +157,46 @@ header nav {
 }
 /* #endregion services */
 /* #region strategic-planning */
-#strategic_planning {
+#strategic-planning {
     background-color: #9792e4;
     margin: 3rem 0;
     padding: 4rem 2rem;
 }
+#strategic-planning > .container > .row > .col-12 > h3 {
+    color: white;
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+#strategic-planning > .container > .row > .col-12 > p {
+    color: white;
+    padding-bottom: 2rem;
+}
+.col-12 > img, .white-card > img {
+    width: 100%;
+}
+.white-card {
+    background-color: white;
+    border-radius: 30px;
+    padding: 1rem 1.5rem;
+    padding-bottom: 3rem;
+}
+.white-card > h4 {
+    padding-top: 1rem;
+}
+.white-card > p {
+    font-style: italic;
+    padding: 1rem 0;
+    padding-bottom: 3rem;
+}
+.white-card > a {
+    font-size: 1rem;
+    background-color: #9792e4;
+    padding: 1rem 1.3rem;
+    border-radius: 100%;
+    text-decoration: none;
+    color: black;
+}
+
 /* #endregion strategic-planning */
 
 
