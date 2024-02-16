@@ -236,7 +236,7 @@ header nav {
     background-size: cover;
     background-position: center;
 }
-.purple-box>.NAT-img {
+.purple-box > .NAT-img {
     background-image: url(img/testimonial1.jpg);
 }
 .purple-box > .CELIA-img {
@@ -305,6 +305,7 @@ header nav {
     #strategic-planning > .container > div.row {
         display: flex;
         flex-direction: row;
+        padding: 0 6rem;
     }
     .card-section-two > img {
         padding-top: 2rem;
