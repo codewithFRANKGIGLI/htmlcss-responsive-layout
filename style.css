@@ -336,8 +336,44 @@ header nav {
     position: relative;
 }
 /* #endregion about us */
-
-
+/* #region get-started */
+#get-started {
+    background-color: #9792e4;
+    padding: 3rem 4rem;
+    color: white;
+}
+#get-started > .container > .row > .col-12 > h2 {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+#get-started > .container > .row > .col-12 > div {
+    color: #fdc15f;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+#get-started > .container > .row > .col-12 > p {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+#get-started > .container > .row > .col-12 > a {
+    text-decoration: none;
+    color: #9792e4;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+#privacy {
+    padding-top: 2rem;
+    display: block;
+}
+#privacy > a {
+    color: white;
+}
+/* #endregion get-started */
 
 
 
@@ -439,6 +475,11 @@ header nav {
     }
     .testimonial-text {
         width: 65%;
+    }
+    #get-started > .container, footer > .container {
+        max-width: 900px;
+        width: 80%;
+        margin: auto;
     }
 }
 /*------------------------------ /TABLET ------------------------------*/
