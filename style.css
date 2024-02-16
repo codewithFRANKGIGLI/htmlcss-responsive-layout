@@ -288,7 +288,54 @@ header nav {
     font-weight: bold;
 }
 /* #endregion benefits */
-
+/* #region about us */
+#about-us {
+    margin: 0 2rem;
+    margin-bottom: 3rem;
+}
+#about-us > .container > .row > .col-12 {
+    padding: 1.5rem;
+}
+#about-us > .container > .row > .col-12 > h2 {
+    color: #9792e4;
+    font-size: 3rem;
+}
+#about-us > .container > .row > .col-12 > p {
+    line-height: 2rem;
+}
+#about-us > .container > .row > .col-12 > .about-us-img {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/about.jpg);
+}
+#about-us > .container > .row > .col-12 > .fa-solid.fa-quote-left {
+    position: absolute;
+    left: 8.5rem;
+    top: 2rem;
+    scale: 1.5;
+    color: #9792e4;
+}
+#about-us > .container > .row > .col-12 > h3 {
+    color: #9792e4;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    padding-bottom: 1.5rem;
+}
+#about-us > .container > .row > .col-12 > a {
+    text-decoration: none;
+    color: white;
+    background-color: #9792e4;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    font-size: .8rem;
+}
+.p-relative {
+    position: relative;
+}
+/* #endregion about us */
 
 
 
