@@ -361,7 +361,7 @@ header nav {
     .white-card > img {
         width: 100%;
     }
-    .col-l-4 {
+    div .col-l-4 {
         width: calc(100% / 12 * 4);
     }
 }
